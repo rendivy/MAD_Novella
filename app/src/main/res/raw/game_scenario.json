@@ -1,0 +1,48 @@
+{
+  "scenes": [
+    {
+      "id": "sceneFirst",
+      "backgroundImage": "imageFirst.png",
+      "question": "Отлично, ! Чем займёмся?",
+      "answers": [
+        {
+          "id": "answer1",
+          "text": "Пойдём на пробежку",
+          "nextSceneId": "sceneSecond"
+        },
+        {
+          "id": "answer2",
+          "text": "Пойдём в поход",
+          "nextSceneId": "scene3"
+        },
+        {
+          "id": "answer3",
+          "text": "Погуляем по полю",
+          "nextSceneId": "scene3"
+        }
+        ]
+    },
+    {
+      "id": "sceneSecond",
+      "backgroundImage": "imageFirst.png",
+      "question": "Отлично, ! Чем займёмся?",
+      "answers": [
+        {
+          "id": "answer1",
+          "text": "Пойдём на пробежку",
+          "nextSceneId": "scene2"
+        },
+        {
+          "id": "answer2",
+          "text": "Пойдём в поход",
+          "nextSceneId": "scene3"
+        },
+        {
+          "id": "answer3",
+          "text": "Погуляем по полю",
+          "nextSceneId": "scene4"
+        }
+      ]
+    }
+  ]
+}
